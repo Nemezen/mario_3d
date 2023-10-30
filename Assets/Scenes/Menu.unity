@@ -310,16 +310,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 462963282}
-        m_TargetAssemblyTypeName: BotonJugar, Assembly-CSharp
-        m_MethodName: IniciarJuego
+      - m_Target: {fileID: 462963285}
+        m_TargetAssemblyTypeName: CambiarNivel, Assembly-CSharp
+        m_MethodName: CambiarEscena
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: nivel1
+          m_StringArgument: NivelInicio
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &237212151
@@ -369,7 +369,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 462963283}
-  - component: {fileID: 462963282}
+  - component: {fileID: 462963285}
   - component: {fileID: 462963284}
   m_Layer: 5
   m_Name: Controlador
@@ -378,18 +378,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &462963282
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 462963281}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 67f357216d4655e4fa275b9d985a699b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!224 &462963283
 RectTransform:
   m_ObjectHideFlags: 0
@@ -418,7 +406,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 462963281}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9d6daf85a8bfa5845b9a869551de8ef8, type: 3}
+  m_Script: {fileID: 11500000, guid: 15311f3ae36eaf1499858859b1788379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &462963285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 462963281}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 007bec27a3ea1df41a49b6d9fb26e782, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &705507993
@@ -574,7 +574,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: c0451ee70282fa94188d9818d7c2137f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 18e60943e7169ac4cab04987f0eea609, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
