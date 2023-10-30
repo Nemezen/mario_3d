@@ -7,11 +7,17 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 1
     path: Assets/Scenes/Menu.unity
+    guid: ce01dfa06cda40e409f9af536b85ec02
+  - enabled: 1
+    path: Assets/Jammo-Character/Scenes/JammoScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/New Scene.unity
-    guid: 17cb93439f5bd7d459f24cf09764a00a
-  - enabled: 1
+    guid: 6accb7f41ceb3ba4c811d1c2c05626df
+  - enabled: 0
     path: Assets/Scenes/nivel1.unity
-    guid: c617fd77ec8b8af4e910ef63701d43b4
+    guid: a4a4b8d888e393144a458bd3ec8f100f
+  - enabled: 1
+    path: Assets/Scenes/NivelInicio.unity
+    guid: 467aead9ef22eb84da5c2be9cfce4a62
   m_configObjects: {}
