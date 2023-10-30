@@ -8,6 +8,9 @@
 Assembly-CSharp.csproj
 
 # Build results
+Mario.sln
+Assembly-CSharp.csproj
+Assembly-CSharp-Editor.csproj
 run/
 Library/
 [Dd]ebug/
