@@ -5,6 +5,7 @@
 *.suo
 *.user
 *.sln.docstates
+Assembly-CSharp.csproj
 
 # Build results
 run/
