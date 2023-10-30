@@ -813,10 +813,12 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
+
       scrollPos: {x: 0, y: 546}
       m_SelectedIDs: 0a3e0100
       m_LastClickedID: 81418
       m_ExpandedIDs: 0a58ffff4658ffff8a5fffff5661ffff7a61ffff14faffff665a0000825a0000725b0000
+
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1080,14 +1082,18 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/Jammo-Character/Scripts
   m_LastFoldersGridSize: -1
+
   m_LastProjectPath: C:\Users\diego\OneDrive\Documents\GitHub\mario_3d
+
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 79}
+
     m_SelectedIDs: 76600000
     m_LastClickedID: 24694
     m_ExpandedIDs: 000000002c6000002e60000030600000326000003460000036600000386000003a6000003c60000000ca9a3b
+
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1115,7 +1121,10 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+
     m_ExpandedIDs: 000000002c6000002e60000030600000326000003460000036600000386000003a6000003c600000
+
+
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
